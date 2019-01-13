@@ -1,0 +1,229 @@
+/* HEADER CSS, Op alle pagina's hetzelfde */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    box-sizing: border-box;
+}
+
+.coldplaylogo {
+    width: 312px;
+    height: 38px;
+    padding: 50px;
+    margin: auto;
+    display: block;
+}
+
+.menu {
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+/* gradient gegenereerd via: http://angrytools.com/gradient/?0_ff0000,34_E099FF,50_05C1FF,68_00ff00,100_FFB405&0_100,100_100&l_45 */
+h1 {
+    font-size: 70px;
+    text-align: center;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(224, 153, 255, 1) 34%, rgba(5, 193, 255, 1) 50%, rgba(0, 255, 0, 1) 68%, rgba(255, 180, 5, 1) 86%, rgba(255, 180, 5, 1) 100%);
+    color: black;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+/* HOME CSS */
+
+.home-img {
+    margin: 30px;
+}
+
+
+/* MEMBERS CSS */
+
+/* flexbox code gegenereerd met hulp van: https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/ */
+#members main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-bottom: 50px;
+
+}
+
+#members section {
+    width: 45%;
+    margin: 10px;
+}
+
+td {
+    padding: 15px;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #999;
+    font-family: sans-serif;
+}
+
+.none {
+    border: 1px solid #999;
+    font-family: sans-serif;
+}
+
+.engineering {
+    border: 1px solid #999;
+    border-bottom: none;
+    font-family: sans-serif;
+}
+
+.architecture {
+    border: 1px solid #999;
+    border-top: none;
+    font-family: sans-serif;
+}
+
+#members h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+#members h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+/* HISTORY CSS */
+
+/* flexbox code gegenereerd met hulp van: https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/ */
+#history main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-bottom: 50px;
+
+}
+
+#history section {
+    width: 45%;
+    margin: 10px;
+}
+
+#history h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(224, 153, 255, 1) 34%, rgba(5, 193, 255, 1) 50%, rgba(0, 255, 0, 1) 68%, rgba(255, 180, 5, 1) 86%, rgba(255, 180, 5, 1) 100%); 
+    display: inline;
+    padding: 0 15px;
+    color: black;
+}
+#history h3 {
+    font-size: 30px;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+
+#history h4 {
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+/* iframe css voor jonny goes jazz */
+.jazz {
+    width: 400px;
+    height: 225px;
+}
+
+
+/* LIVE CSS */
+
+/* flexbox code gegenereerd met hulp van: https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/ */
+#live main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-bottom: 50px;
+
+}
+
+#live section {
+    width: 45%;
+    margin: 10px;
+}
+
+#live p {
+    width: 650px;
+    font-family: sans-serif;
+}
+
+iframe {
+    width: 650px;
+    height: 366px;
+}
+
+video {
+    width: 650px;
+    height: 366px;
+    border: 2px solid white;
+}
+
+#live h2 {
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+#live h3 {
+    font-size: 25px;
+}
+
+.source {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+/* FOOTER CSS, op elke pagina hetzelfde */
+
+footer {
+    background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(224, 153, 255, 1) 34%, rgba(5, 193, 255, 1) 50%, rgba(0, 255, 0, 1) 68%, rgba(255, 180, 5, 1) 86%, rgba(255, 180, 5, 1) 100%);
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+footer a:hover {
+    color: rgb(124, 124, 124)
+}
